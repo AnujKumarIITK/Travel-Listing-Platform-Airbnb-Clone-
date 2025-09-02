@@ -1,4 +1,5 @@
 //JavaScript File app.js
+
 import { useState, useEffect, useContext } from 'react';
 import jwt_decode from 'jwt-decode';
 
@@ -171,3 +172,4 @@ export const useProvidePlaces = () => {
         setLoading
     }
 }
+
